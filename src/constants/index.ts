@@ -24,6 +24,7 @@ import {
   carrent,
   jobit,
   tripguide,
+  offroadSegmentation,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -182,6 +183,43 @@ const testimonials: TTestimonial[] = [
 ];
 
 const projects: TProject[] = [
+  {
+    name: "Offroad_segmentation",
+    description:
+      "Offroad semantic segmentation for desert and simulator scenes, labeling every pixel into 10 classes for safer autonomous navigation.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "pytorch",
+        color: "green-text-gradient",
+      },
+      {
+        name: "segmentation-models-pytorch",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "opencv",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "albumentations",
+        color: "green-text-gradient",
+      },
+      {
+        name: "numpy",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tta-ensemble",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: offroadSegmentation,
+    sourceCodeLink: "https://github.com/Thousip683/Offroad_segmentation",
+  },
   {
     name: "Student Task Manager",
     description:
