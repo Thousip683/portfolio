@@ -1,5 +1,7 @@
 # Thousip K | 3D Portfolio
 
+## Live Demo: https://portfolio-thousip.vercel.app
+
 A modern personal portfolio built with React, TypeScript, Tailwind CSS, and Three.js.
 
 ## Live Website
