@@ -220,68 +220,82 @@ const projects: TProject[] = [
     image: offroadSegmentation,
     sourceCodeLink: "https://github.com/Thousip683/Offroad_segmentation",
   },
+
+  
   {
-    name: "Student Task Manager",
+    name: "Beyond Classroom",
     description:
-      "Task planner for assignments, deadlines, and priorities with an organized dashboard for daily productivity.",
+      "Student-focused web app that centralizes academics, exam prep, and career/course learning with subjects, timetables, assignments, practice tests, courses, and projects. Includes secure auth and modular features with quick local setup.",
+    tags: [
+      {
+        name: "php",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    sourceCodeLink: "https://github.com/Thousip683/WT_Project",
+  },
+  {
+    name: "Rural Care (AI Healthcare Platform)",
+    description:
+      "AI-assisted healthcare web app for rural communities with symptom checks, risk-tiered results, self-care guidance, and an admin dashboard with trend analytics and alerts.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "mysql",
+        name: "express",
         color: "pink-text-gradient",
       },
-    ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/Thousip683",
-  },
-  {
-    name: "DSA Practice Tracker",
-    description:
-      "Track solved coding problems by topic and difficulty to build consistency and measurable progress in DSA practice.",
-    tags: [
       {
-        name: "javascript",
+        name: "sqlite",
         color: "blue-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "postgres",
         color: "green-text-gradient",
-      },
-      {
-        name: "mysql",
-        color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    sourceCodeLink: "https://github.com/Thousip683",
+    sourceCodeLink: "https://ruralcareai-joo7.onrender.com/",
   },
   {
-    name: "Portfolio and Blog Platform",
+    name: "GestureDesk",
     description:
-      "A personal showcase and technical writing platform built to present projects, ideas, and learning progress.",
+      "Webcam-based hand-gesture controller for mouse movement, click/drag, and scroll with low-latency tracking, smoothing, and jitter reduction for reliable hands-free control.",
     tags: [
       {
-        name: "html",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "php",
+        name: "opencv",
         color: "green-text-gradient",
       },
       {
-        name: "mysql",
+        name: "mediapipe",
         color: "pink-text-gradient",
+      },
+      {
+        name: "pyautogui",
+        color: "blue-text-gradient",
       },
     ],
     image: tripguide,
-    sourceCodeLink: "https://github.com/Thousip683",
+    sourceCodeLink: "https://github.com/Thousip683/Gesture_desk",
   },
 ];
 
