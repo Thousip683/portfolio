@@ -25,6 +25,10 @@ import {
   jobit,
   tripguide,
   offroadSegmentation,
+  beyondClassroomThumb,
+  ruralCareThumb,
+  gestureDeskThumb,
+  offroadSegmentationThumb,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -217,7 +221,7 @@ const projects: TProject[] = [
         color: "blue-text-gradient",
       },
     ],
-    image: offroadSegmentation,
+    image: offroadSegmentationThumb,
     sourceCodeLink: "https://github.com/Thousip683/Offroad_segmentation",
   },
 
@@ -240,7 +244,7 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: beyondClassroomThumb,
     sourceCodeLink: "https://github.com/Thousip683/WT_Project",
   },
   {
@@ -269,7 +273,7 @@ const projects: TProject[] = [
         color: "green-text-gradient",
       },
     ],
-    image: jobit,
+    image: ruralCareThumb,
     sourceCodeLink: "https://ruralcareai-joo7.onrender.com/",
   },
   {
@@ -294,7 +298,7 @@ const projects: TProject[] = [
         color: "blue-text-gradient",
       },
     ],
-    image: tripguide,
+    image: gestureDeskThumb,
     sourceCodeLink: "https://github.com/Thousip683/Gesture_desk",
   },
 ];

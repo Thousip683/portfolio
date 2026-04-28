@@ -30,6 +30,10 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import offroadSegmentation from "./offroad-segmentation.svg";
+import beyondClassroomThumb from "./projects/beyond-classroom.svg";
+import ruralCareThumb from "./projects/rural-care.svg";
+import gestureDeskThumb from "./projects/gesturedesk.svg";
+import offroadSegmentationThumb from "./projects/offroad-segmentation-thumb.svg";
 
 export {
   logo,
@@ -61,4 +65,8 @@ export {
   jobit,
   tripguide,
   offroadSegmentation,
+  beyondClassroomThumb,
+  ruralCareThumb,
+  gestureDeskThumb,
+  offroadSegmentationThumb,
 };

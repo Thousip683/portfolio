@@ -1,0 +1,40 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rural Care project thumbnail">
+  <defs>
+    <linearGradient id="bg-rc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a3d2f"/>
+      <stop offset="100%" stop-color="#145a32"/>
+    </linearGradient>
+    <linearGradient id="accent-rc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#78d6a3"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg-rc)"/>
+  <rect x="70" y="80" width="1060" height="640" rx="36" fill="#0f3d2f" opacity="0.9"/>
+
+  <path d="M140 560c120-120 240-180 360-180s240 60 360 180" fill="none" stroke="#78d6a3" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="860" cy="280" r="110" fill="#0a2f25"/>
+  <path d="M860 220v120" stroke="url(#accent-rc)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M800 280h120" stroke="url(#accent-rc)" stroke-width="14" stroke-linecap="round"/>
+
+  <text x="140" y="260" fill="#f8fafc" font-size="52" font-weight="700" font-family="Space Grotesk, Poppins, Arial, sans-serif">Rural Care</text>
+  <text x="140" y="310" fill="#cde7d8" font-size="22" font-family="Space Grotesk, Poppins, Arial, sans-serif">AI Healthcare Platform</text>
+  <text x="140" y="360" fill="#cde7d8" font-size="20" font-family="Space Grotesk, Poppins, Arial, sans-serif">Symptom Checks • Risk Tiers • Admin Analytics</text>
+
+  <g transform="translate(140 430)">
+    <rect width="170" height="42" rx="21" fill="#78d6a3"/>
+    <text x="85" y="28" text-anchor="middle" fill="#0a2f25" font-size="18" font-weight="600" font-family="Space Grotesk, Poppins, Arial, sans-serif">React</text>
+  </g>
+  <g transform="translate(330 430)">
+    <rect width="190" height="42" rx="21" fill="#34d399"/>
+    <text x="95" y="28" text-anchor="middle" fill="#0a2f25" font-size="18" font-weight="600" font-family="Space Grotesk, Poppins, Arial, sans-serif">TypeScript</text>
+  </g>
+  <g transform="translate(540 430)">
+    <rect width="170" height="42" rx="21" fill="#0ea5a4"/>
+    <text x="85" y="28" text-anchor="middle" fill="#e8f8f4" font-size="18" font-weight="600" font-family="Space Grotesk, Poppins, Arial, sans-serif">Express</text>
+  </g>
+  <g transform="translate(730 430)">
+    <rect width="170" height="42" rx="21" fill="#22c55e"/>
+    <text x="85" y="28" text-anchor="middle" fill="#0a2f25" font-size="18" font-weight="600" font-family="Space Grotesk, Poppins, Arial, sans-serif">Postgres</text>
+  </g>
+</svg>

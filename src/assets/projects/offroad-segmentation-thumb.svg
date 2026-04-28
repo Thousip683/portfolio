@@ -1,0 +1,33 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Offroad segmentation project thumbnail">
+  <defs>
+    <linearGradient id="bg-os" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2b1d0e"/>
+      <stop offset="100%" stop-color="#6b3f19"/>
+    </linearGradient>
+    <linearGradient id="accent-os" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg-os)"/>
+  <rect x="80" y="90" width="1040" height="620" rx="36" fill="#3a220f" opacity="0.9"/>
+
+  <path d="M160 520c140-120 280-180 420-180s280 60 420 180" fill="none" stroke="#f59e0b" stroke-width="10" stroke-linecap="round"/>
+  <path d="M200 560c120-100 240-140 360-140s240 40 360 140" fill="none" stroke="#f97316" stroke-width="8" stroke-linecap="round"/>
+
+  <text x="160" y="270" fill="#fff7ed" font-size="50" font-weight="700" font-family="Space Grotesk, Poppins, Arial, sans-serif">Offroad Segmentation</text>
+  <text x="160" y="320" fill="#fde68a" font-size="22" font-family="Space Grotesk, Poppins, Arial, sans-serif">Pixel-wise scene labeling for desert and simulator terrain</text>
+
+  <g transform="translate(160 380)">
+    <rect width="170" height="40" rx="20" fill="#f59e0b"/>
+    <text x="85" y="26" text-anchor="middle" fill="#3a220f" font-size="18" font-weight="600" font-family="Space Grotesk, Poppins, Arial, sans-serif">PyTorch</text>
+  </g>
+  <g transform="translate(350 380)">
+    <rect width="190" height="40" rx="20" fill="#fb923c"/>
+    <text x="95" y="26" text-anchor="middle" fill="#3a220f" font-size="18" font-weight="600" font-family="Space Grotesk, Poppins, Arial, sans-serif">Segmentation</text>
+  </g>
+  <g transform="translate(560 380)">
+    <rect width="160" height="40" rx="20" fill="#fdba74"/>
+    <text x="80" y="26" text-anchor="middle" fill="#3a220f" font-size="18" font-weight="600" font-family="Space Grotesk, Poppins, Arial, sans-serif">OpenCV</text>
+  </g>
+</svg>
